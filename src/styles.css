@@ -1,9 +1,14 @@
 /* Add application styles & imports to this file! */
 
 textarea {
-  margin-bottom: 60px;
   resize: none;
   padding: 0 4px;
+}
+
+.example {
+  margin-bottom: 60px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .full-width {
@@ -11,4 +16,8 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.contenteditable {
+  min-height: 18px;
 }
